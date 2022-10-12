@@ -77,6 +77,7 @@ input[type="text"] {
     border: none;
     align-self: center;
     background-color:rgb(226,232,240);
+    padding-left: 1em;
 }
 
 i.fa-solid.fa-magnifying-glass {
