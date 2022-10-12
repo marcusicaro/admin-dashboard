@@ -259,6 +259,15 @@ p.announcements-card-content-title {
     background-color: #E2E8F0;
 }
 
+
+.photo-trending {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
 .trending-card {
     margin-right: 25px;
     margin-bottom: 25px;
@@ -266,4 +275,26 @@ p.announcements-card-content-title {
     border-radius: 8px;
     box-shadow: 2px 2px 6px -4px;
     padding: 15px;
+    display: grid;
+    gap: 15px;
+}
+
+.trending-content {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+}
+
+.trending-text p {
+    margin: 0px;
+}
+
+.trending-text {
+    display: grid;
+    align-items: center;
+}
+
+.title {
+    color: grey;
+    font-size: 16px;
+    align-self: flex-start;
 }
